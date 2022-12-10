@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>XML in JavaScript</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+	<table class="paleBlueRows">
+	</table>
+	<script>
+		function loadXMLDoc() {
+		  var xmlhttp = new XMLHttpRequest();
+		  xmlhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+			  display(this);
+			}
+		  };
+		  xmlhttp.open("GET", "dane.xml", true);
+		  xmlhttp.send();
+		}
+
+		function displayTableHead( table, Asortyment) {
+		  let thead = table.createTHead();
+		  let row = thead.insertRow();
+		  for( let key of Asortyment.children) {
+			let th = document.createElement("th");
+			let text = document.createTextNode( key.nodeName);
+			if(key.nodeName=="dostawca") text = document.createTextNode("Dane dostawcy");
+			if(key.nodeName=="NIK_dostawcy") text = document.createTextNode("Nr_NIK");
+			if(key.nodeName=="produkt") text = document.createTextNode("Produkt");
+			if(key.nodeName=="dane") text = document.createTextNode("Dane produktu");
+			th.appendChild(text);
+			row.appendChild(th);
+		  }
+		}		
+
+		function displayTable( table, data) {
+		  displayTableHead( table, data[0])
+		  let text;
+		  for (let Asortyment of data) {
+			let row = table.insertRow();
+			for ( let key of Asortyment.children) {
+			    let cell = row.insertCell();    
+				let infotext = "";	
+				if (key.nodeName=="produkt") {
+					infotext = key.innerHTML;
+				}
+
+				if (key.nodeName=="dostawca") {
+					for ( let info of key.children) {
+					console.log(info)
+					if(info.nodeName=="id_dostawcy") infotext += "ID: " + info.innerHTML + "\n";
+					if(info.nodeName=="nazwa_dostawcy") infotext += "Nazwa: " + info.innerHTML + "\n";
+					if(info.nodeName=="adres_dostawcy") infotext += "Adres: " + info.innerHTML + "\n";
+					if(info.nodeName=="NIK_dostawcy") infotext += "Nr NIK: " + info.innerHTML;
+					}
+				}
+
+				if (key.nodeName=="NIK_dostawcy") {
+					infotext = key.innerHTML;
+				}
+
+				if (key.nodeName=="dane") {
+					for ( let info of key.children) {
+					console.log(info)
+					if(info.nodeName=="cena") infotext += "Cena: " + info.innerHTML + " zł\n";
+					if(info.nodeName=="ilosc") infotext += "Ilość: " + info.innerHTML;
+					}	
+				}
+
+					text = document.createTextNode(infotext);
+					cell.appendChild(text);
+					console.log(text);
+				}
+			}
+		}
+			
+
+		function display(xml) {
+		  var xmlDoc = xml.responseXML;
+		  var artykuly = Array.from( xmlDoc.getElementsByTagName("Asortyment"));
+		  let table = document.querySelector("table");
+		  displayTable( table, artykuly);
+		}	
+
+		loadXMLDoc();
+	</script>
+  </body>
+</html>

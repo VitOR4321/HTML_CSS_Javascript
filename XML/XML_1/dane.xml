@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<warzywniak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="warzywniak.xsd">
+
+<Asortyment>
+    <produkt>Jabłko poskie</produkt>
+    <dane>
+        <cena>4.99</cena>
+        <ilosc>8</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>1</id_dostawcy>
+        <nazwa_dostawcy>Januszex</nazwa_dostawcy>
+        <adres_dostawcy>Gdansk, Polna 43</adres_dostawcy>
+        <NIK_dostawcy>65-9872</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Banan Chiquita</produkt>
+    <dane>
+        <cena>2.56</cena>
+        <ilosc>12</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>1</id_dostawcy>
+        <nazwa_dostawcy>Januszex</nazwa_dostawcy>
+        <adres_dostawcy>Gdansk, Polna 43</adres_dostawcy>
+        <NIK_dostawcy>65-9872</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Kapusta swojska</produkt>
+    <dane>
+        <cena>3.67</cena>
+        <ilosc>11</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>2</id_dostawcy>
+        <nazwa_dostawcy>Grażynex</nazwa_dostawcy>
+        <adres_dostawcy>Gdynia, Wiejska 14</adres_dostawcy>
+        <NIK_dostawcy>69-3420</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Ziemniaki wczesne</produkt>
+    <dane>
+        <cena>5.67</cena>
+        <ilosc>8</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>2</id_dostawcy>
+        <nazwa_dostawcy>Grażynex</nazwa_dostawcy>
+        <adres_dostawcy>Gdynia, Wiejska 14</adres_dostawcy>
+        <NIK_dostawcy>69-3420</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Mandarynka brazylijska</produkt>
+    <dane>
+        <cena>1.59</cena>
+        <ilosc>22</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>1</id_dostawcy>
+        <nazwa_dostawcy>Januszex</nazwa_dostawcy>
+        <adres_dostawcy>Gdansk, Polna 43</adres_dostawcy>
+        <NIK_dostawcy>65-9872</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Pomarańcza malta</produkt>
+    <dane>
+        <cena>3.99</cena>
+        <ilosc>8</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>1</id_dostawcy>
+        <nazwa_dostawcy>Januszex</nazwa_dostawcy>
+        <adres_dostawcy>Gdansk, Polna 43</adres_dostawcy>
+        <NIK_dostawcy>65-9872</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Ogórek szklarniowy</produkt>
+    <dane>
+        <cena>3.99</cena>
+        <ilosc>24</ilosc>
+    </dane>
+    <NIK_dostawcy>69-3420</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>2</id_dostawcy>
+        <nazwa_dostawcy>Grażynex</nazwa_dostawcy>
+        <adres_dostawcy>Gdynia, Wiejska 14</adres_dostawcy>
+        <NIK_dostawcy>69-3420</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Masło Mlekovita</produkt>
+    <dane>
+        <cena>7.29</cena>
+        <ilosc>18</ilosc>
+    </dane>
+    <NIK_dostawcy>64-3345</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>3</id_dostawcy>
+        <nazwa_dostawcy>Witex</nazwa_dostawcy>
+        <adres_dostawcy>Sopot, Pastwiskowa 56</adres_dostawcy>
+        <NIK_dostawcy>64-3345</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Awokado</produkt>
+    <dane>
+        <cena>5.70</cena>
+        <ilosc>5</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>1</id_dostawcy>
+        <nazwa_dostawcy>Januszex</nazwa_dostawcy>
+        <adres_dostawcy>Gdansk, Polna 43</adres_dostawcy>
+        <NIK_dostawcy>65-9872</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Pomidor papryczkowy</produkt>
+    <dane>
+        <cena>1.00</cena>
+        <ilosc>200</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>2</id_dostawcy>
+        <nazwa_dostawcy>Grażynex</nazwa_dostawcy>
+        <adres_dostawcy>Gdynia, Wiejska 14</adres_dostawcy>
+        <NIK_dostawcy>69-3420</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Truskawka Rumba</produkt>
+    <dane>
+        <cena>1.25</cena>
+        <ilosc>124</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>1</id_dostawcy>
+        <nazwa_dostawcy>Januszex</nazwa_dostawcy>
+        <adres_dostawcy>Gdansk, Polna 43</adres_dostawcy>
+        <NIK_dostawcy>65-9872</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Ptasie Mleczko Wedel</produkt>
+    <dane>
+        <cena>10.49</cena>
+        <ilosc>12</ilosc>
+    </dane>
+    <NIK_dostawcy>64-3345</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>3</id_dostawcy>
+        <nazwa_dostawcy>Witex</nazwa_dostawcy>
+        <adres_dostawcy>Sopot, Pastwiskowa 56</adres_dostawcy>
+        <NIK_dostawcy>64-3345</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Lody Waniliowe Carte D'Or</produkt>
+    <dane>
+        <cena>12.69</cena>
+        <ilosc>6</ilosc>
+    </dane>
+    <NIK_dostawcy>64-3345</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>3</id_dostawcy>
+        <nazwa_dostawcy>Witex</nazwa_dostawcy>
+        <adres_dostawcy>Sopot, Pastwiskowa 56</adres_dostawcy>
+        <NIK_dostawcy>64-3345</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+<Asortyment>
+    <produkt>Bób 500g</produkt>
+    <dane>
+        <cena>19.99</cena>
+        <ilosc>14</ilosc>
+    </dane>
+    <NIK_dostawcy>65-9872</NIK_dostawcy>
+    <dostawca>
+        <id_dostawcy>2</id_dostawcy>
+        <nazwa_dostawcy>Grażynex</nazwa_dostawcy>
+        <adres_dostawcy>Gdynia, Wiejska 14</adres_dostawcy>
+        <NIK_dostawcy>69-3420</NIK_dostawcy>
+    </dostawca>
+</Asortyment>
+
+</warzywniak>

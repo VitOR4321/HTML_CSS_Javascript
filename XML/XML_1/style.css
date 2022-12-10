@@ -1,0 +1,47 @@
+warzywniak{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+Asortyment{
+    display: block;
+    background-color: rgb(209, 221, 105);
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+produkt{
+    font-size: 24px;
+    color: cornsilk;
+    background-color: green;
+    text-shadow: 2px 2px 4px #000000;
+    display: block;
+    text-align: center;
+}
+
+cena, ilosc, NIK_dostawcy, id_dostawcy, nazwa_dostawcy, adres_dostawcy{
+    display: block;
+    color: black;
+    margin: 5px;
+}
+
+id_dostawcy {
+    border-style: dashed;
+    border-width: 2px;
+    border-bottom:rgb(209, 221, 105);
+    border-left:rgb(209, 221, 105);
+    border-right:rgb(209, 221, 105);  
+}
+
+cena {
+    border-style: dashed;
+    border-width: 2px;
+    border-bottom:rgb(209, 221, 105);
+    border-left:rgb(209, 221, 105);
+    border-right:rgb(209, 221, 105);  
+}
