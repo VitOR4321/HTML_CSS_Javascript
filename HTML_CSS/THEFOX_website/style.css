@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255,255,255);
+}
+
+.content {
+    width: auto;
+    margin: auto;
+    background: rgb(247,198,90);
+    float: left;
+
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background: rgb(247,198,90);
+    background: linear-gradient(0deg, rgb(247,198,90) 0%, rgba(44,6,5,1) 30%);
+
+    
+}
+.O_nas {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgb(247,198,90) 0%, rgba(44,6,5,1) 30%);
+    width: 25%;
+    height: 20vh;
+    float: left;
+}
+
+.Usługi_i_cennik {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgb(247,198,90) 0%, rgba(44,6,5,1) 30%);
+    width: 25%;
+    height: 20vh;
+    float: left;
+}
+.Kontakt {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgb(247,198,90) 0%, rgba(44,6,5,1) 30%);
+    width: 25%;
+    height: 20vh;
+    float: left;
+}
+.logo {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgb(247,198,90) 0%, rgba(44,6,5,1) 30%);
+    width: 20%;
+    height: 20vh;
+    float: left;
+}
+
+.gora {
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+
+}
+main {
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+} 
+
+.high {
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+}
+.usl1 {
+    width: 100%;
+    height:auto;
+    overflow:auto;
+    background-color: rgb(247,198,90)f;
+    float: left;
+}
+.mid1 {
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+    
+}
+.usl2 {
+    width: 100%;
+    height:auto;
+    overflow:auto;
+    background-color: rgb(247,198,90);
+    float: left;
+    
+}
+.mid2 {
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+    
+}
+.usl3 {
+    width: 100%;
+    height:auto;
+    overflow:auto;
+    background-color: rgb(247,198,90);
+    float: left;
+}
+
+.low {
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+}
+.usl4 {
+    width:  100%;
+    height:auto;
+    overflow:auto;
+    background-color: rgb(247,198,90);
+    float: left;
+}
+    
+
+footer {
+    background: rgb(247,198,90);
+    background: linear-gradient(180deg, rgb(247,198,90) 0%, rgba(44,6,5,1) 30%);
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+    font-size: 2.8vw;
+
+}
+#dane1
+{
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+    display: none;
+    color: rgb(0,0,0);
+    font-size:2.8vw;
+}
+#dane2
+{
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+    display: none;
+    color: rgb(0,0,0);
+    font-size:2.8vw;
+}
+#dane3
+{
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+    display: none;
+    color: rgb(0,0,0);
+    font-size:2.8vw;
+}
+#dane4
+{
+    height:auto;
+    overflow:auto;
+    width: 100%;
+    float: left;
+    display: none;
+    color: rgb(0,0,0);
+    font-size:2.8vw;
+}
+
+
+.but {
+    background-color: rgba(44,6,5,1);
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-basis: 100%;
+    font-size: 2.8vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: transform 1s;
+  }
+  .but:hover{
+    transform: scale(1.1.25);
+    overflow: hidden;
+  }
+  .butt {
+    background-color: rgba(44,6,5,1);
+    border: none;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-basis: 100%;
+    font-size: 2.8vw;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: transform 1s;
+  }
+  .buttt {
+    background-color: rgba(44,6,5,1);
+    border: none;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-basis: 100%;
+    font-size: 3.2vw;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: transform 1s;
+  }
+  .buttt:hover{
+    transform: scale(1.1.25);
+    overflow: hidden;
+  }
+  #us1{
+    width: 75%;
+    max-width: 400px;
+    text-align: center;
+  }
+  #us2{
+    width: 75%;
+    max-width: 400px;
+    text-align: center; 
+  }
+  #us3{
+    width: 75%;
+    max-width: 400px;
+    text-align: center;
+  }
+  #us4{
+    width: 75%;
+    max-width: 400px;
+    text-align: center;
+  }
