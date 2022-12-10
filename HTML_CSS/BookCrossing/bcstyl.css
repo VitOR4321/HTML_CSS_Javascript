@@ -1,0 +1,47 @@
+body {
+    background-color:#bfe7be;
+}
+h1{
+    color: #4dbc49;;
+    font-size: 32px;
+    text-align: center;
+}
+h2 {
+    background: #4dbc73;
+    border-left: magenta 5px solid;
+    border-bottom: cyan 5px solid;
+} 
+h3 {
+    background: #4dbc73;
+    border-left: magenta 5px solid;
+    border-bottom: cyan 5px solid;
+
+} 
+form{
+    background: white;
+    border: orange 2px solid;
+}
+#tytul{
+    border: darkblue 2px solid;
+}
+table, td{
+    border: red 5px solid;
+}
+h3:first-letter{font-size: 40px;}
+h2:first-letter{font-size: 40px;}
+h1:first-letter{font-size: 40px;}
+
+p>q{
+    color: red;
+    font-style: italic;
+}
+tr:first-child{
+    background-color: white;
+}
+#czesc2 span{
+    font-style: italic;
+}
+.przykład
+{
+    color: crimson;
+}
