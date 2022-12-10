@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="laby11.js"></script>
+    <title>Document</title>
+</head>
+<body onload="zmianacopiecsekund()">
+    <div class="zad1">
+        <p>zadanie1</p>
+        <h1 onmouseenter="zmiana(this)">Nagłówek</h1>
+    </div>
+    <div class="zad2">
+        <p>zadanie2</p>
+        <img onclick="zmianaZdjecia(1)" src="images/mino1.jpg" id="img1" alt="obraz">
+        <img onclick="zmianaZdjecia(2)" src="images/mino2.jpg" id="img2" alt="obraz">
+        <img onclick="zmianaZdjecia(3)" src="images/mino3.jpg" id="img3" alt="obraz">
+        <img onclick="zmianaZdjecia(4)" src="images/mino4.jpg" id="img4" alt="obraz">
+        <img onclick="zmianaZdjecia(5)" src="images/mino5.jpg" id="img5" alt="obraz">
+        <img onclick="zmianaZdjecia(6)" src="images/mino6.jpg" id="img6" alt="obraz">
+        <img src="o1.jpg" id="obraz" alt="obraz">
+    </div>
+    <div class="zad3">
+        <p>zadanie3</p>
+        <form>
+            <label>Wpisz w pole tesktowe wartość kąta</label>
+            <input type="text" name="kat" id="kat">
+            <br>
+            <button type="button" onclick="przeliczStopnie()">Przelicz na stopnie</button>
+            <button type="button" onclick="przeliczRadiany()">Przelicz na radiany</button>
+            <p id="wynikStopnie"></p>
+            <p id="wynikRadiany"></p>
+        </form>
+    </div>
+    <div class="zad4">
+        <p>zadanie4</p>
+        <h1 id="naglowek1" >Zmiana koloru co 5 sekund</h1>
+    </div>
+</body>
+</html>
